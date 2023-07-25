@@ -1220,9 +1220,347 @@ img {
     background-repeat: no-repeat;
     margin-right: 5px;
     
+    
+    
 }
 
 .subscription_button:hover {
     background-color: #ffbd54;
     color: #333;
+}
+
+.faq__box {
+    width: 447px;
+}
+
+.faq__heading {
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 64px; 
+    margin-top: 0;
+    margin-bottom: 27px;
+    
+}
+
+.faq__desc {
+    color: #949494;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.faq__link {
+    width: 201px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    background: #78C0DE;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.user-faq__text {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; 
+    margin: 0;
+}
+
+.user-faq__link {
+    color: #78C0DE;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.user-faq__time {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.user-faq__heading {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 23px;
+}
+
+.user-faq__box1 {
+    width: 752px;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    padding: 31px 112px 75px 63px;
+}
+
+.user-faq__desc {
+    color: #949494;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;!important
+    
+}
+
+details {
+    transition: 50ms;
+}
+
+summary::marker {
+    content: none;
+    cursor: pointer;
+}
+
+details summary { 
+    cursor: pointer;
+}
+
+.user-faq__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.services__item {
+    width: 305px;
+    height: 420px;
+    border-radius: 5px 5px 0px 0px;
+    background: #FFF;
+    border: 1px solid transparent;
+    padding-right: 22px;
+    padding-left: 53px;
+    
+    
+}
+
+.services__item:hover {
+    
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.services__heading {
+    color: #333;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px; 
+    margin-top: 0;
+    margin-bottom: 14px;
+    
+}
+
+.services__heading--1::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 61.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+
+.services__desc {
+    color: #949494;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.services__link {
+    display: inline-block;
+    width: 156px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    background: rgba(255, 189, 84, 1);
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.services__link:hover {
+    background-color: rgba(0, 0, 0, 1);
+    
+}
+
+.services__heading--2::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 62.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__link--add {
+    background-color: rgba(120, 192, 222, 1);
+}
+
+.services__heading--3::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 64.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--4::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 65.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--5::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 66.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--6::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 67.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--7::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 68.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--8::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 69.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--9::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 70.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--10::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 71.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--11::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 72.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__heading--12::before {
+    display: block;
+    content: "";
+    background: url(./images/Group\ 73.svg) no-repeat;
+    width: 252px;
+    height: 137px;
+    margin-bottom: 21.5px;
+}
+
+.services__list {
+    margin: 0;
+}
+
+.services {
+    padding-top: ;
+    padding-bottom: 168px;
+}
+
+.services-hero__wrapper {
+    width: 447px;
+}
+
+.services-hero__heading {
+    margin-top: 0;
+    margin-bottom: 21px;
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 64px; 
+}
+
+.services-hero__desc {
+    color: #949494;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.services-hero {
+    padding-top: 110px;
+    padding-left: 112px;
+    padding-bottom: 140px;
+}
+
+.services-hero__wrapper {
+    position: relative;
+}
+
+.services-hero__wrapper::after {
+    content: "";
+    position: absolute;
+    background: url(./images/kisspng-birdcage-budgerigar-cockatiel-parakeet-parrot-5a7c728f7bae43\ 1.png) no-repeat;
+    width: 435px;
+    height: 435px;
+    float: left;
+    top: -98%;
+    left: 190%;
 }
